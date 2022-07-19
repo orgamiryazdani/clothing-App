@@ -5,16 +5,17 @@ import { Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import HomePage from "./Pages/HomePage";
 import CartPage from "./Pages/CartPage";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <div>
       <Provider store={store}>
-        <ToastContainer/>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/cart" element={<CartPage />} />
-          </Routes>
+        <ToastContainer />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/cart" element={<CartPage />} />
+        </Routes>
       </Provider>
     </div>
   );

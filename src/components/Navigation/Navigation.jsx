@@ -27,7 +27,7 @@ const Navigation = () => {
           </Link>
           <img
             className="w-8 h-8 rounded-full"
-            src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
+            src="https://helpdeskgeek.com/wp-content/pictures/2021/12/17-HD-Wallpapers.jpg"
             alt=""
           />
         </div>

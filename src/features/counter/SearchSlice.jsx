@@ -10,7 +10,7 @@ const searchSlice = createSlice({
   },
   reducers: {
     searchItem: (state, action) => {
-      state.items = state.data.filter(item => item.name.toLowerCase().includes(action.payload))
+      state.items = state.data.filter(item => item.name.toLowerCase().includes(action.payload.toLowerCase()))
     },
   },
 });

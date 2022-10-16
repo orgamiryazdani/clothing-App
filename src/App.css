@@ -1,3 +1,22 @@
-body{
-    overflow-x: hidden;
+* {
+  font-family: "Dirooz";
+}
+
+body {
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Dirooz"; /*Can be any text*/
+  src: local("Dirooz"), url("./fonts/Dirooz.woff") format("woff");
+}
+
+.direction {
+  direction: ltr;
+}
+
+.Toastify__toast {
+    margin-top: 20px;
+    width: 90%;
 }

@@ -13,7 +13,7 @@ const Product = () => {
 
   const addItem = (product) => {
     dispatch(addItemToCart(product));
-    toast.success(`${product.name} added to cart !`);
+    toast.success(`${product.name} به سبد خرید اضافه شد`);
   };
 
   return (
@@ -23,7 +23,7 @@ const Product = () => {
           return (
             <article
               key={product.id}
-              className="flex flex-col rounded-xl overflow-hidden w-80 h-72"
+              className="flex flex-col rounded-xl overflow-hidden w-80 h-72 direction"
             >
               <div className="flex items-center justify-center rounded-xl overflow-hidden w-full h-4/6">
                 <div className="absolute mr-60 text-2xl w-6 h-6 text-black rounded-full bg-white cursor-pointer mt-36">

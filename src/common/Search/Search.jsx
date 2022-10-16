@@ -32,7 +32,7 @@ const Search = () => {
           className="border rounded-md border-black outline-none mr-2 p-2 text-sm w-full"
         />
       </div>
-      <div className="mr-6" onClick={() => ShowSearch()}>
+      <div className="ml-6" onClick={() => ShowSearch()}>
         {search ? <MdClose /> : <BiSearchAlt />}
       </div>
     </div>
